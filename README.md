@@ -1,8 +1,7 @@
 
 # Binary Exploitation Workshop
 
-A 3-hours Hands-on Workshop on 9th November 2024. This materials might be reuse in the future
-
+A 3-hour hands-on workshop scheduled for November 9, 2024, with materials that may be reused for future sessions.
 
 ## Author
 
