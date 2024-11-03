@@ -27,4 +27,8 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+void interesting_function() {
+    asm("pop %rdi; ret");
+    asm("pop %rsi; ret");
+}
 

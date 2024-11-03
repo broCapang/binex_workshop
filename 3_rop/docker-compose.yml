@@ -1,0 +1,43 @@
+version: '3'
+services:
+  chall1:
+    build: ./1-ret2win
+    ports:
+      - "10001:10001"
+    container_name: chall1
+  chall2:
+    build: ./2-ret2win
+    ports:
+      - "10002:10002"
+    container_name: chall2
+  chall3:
+    build: ./3.1-chal-ret2win
+    ports:
+      - "10003:10003"
+    container_name: chall3
+  chall4:
+    build: ./3.2-chal-ret2win
+    ports:
+      - "10004:10004"
+    container_name: chall4
+  chall5:
+    build: ./4-chal-ret2multiwin
+    ports:
+      - "10005:10005"
+    container_name: chall5
+  chall6:
+    build: ./5-ret2libc
+    ports:
+      - "10006:10006"
+    container_name: chall6
+  chall7:
+    build: ./6-ret2libc-noleak
+    ports:
+      - "10007:10007"
+    container_name: chall7
+  chall8:
+    build: ./7-chall-ret2libc
+    ports:
+      - "10008:10008"
+    container_name: chall8
+
