@@ -54,6 +54,7 @@ A 3-hour hands-on workshop scheduled for November 9, 2024, with materials that m
 
 3. **Install Docker**  
    Docker is required for containerized environments during the workshop.
+   **FOR UBUNTU**
    
    ```bash
    # Add Docker's official GPG key:
